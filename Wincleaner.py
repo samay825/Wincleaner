@@ -20,7 +20,7 @@ def installprogram(package='colorama'):
                try:
                   os.system('clear')
                except:
-                   pass # except for windows ! 
+                   print("") # except for windows ! 
 try:
     installprogram()           
 except Exception as samay:
@@ -90,7 +90,7 @@ def systemclear():
     try:
         os.system('clear')
     except:
-        pass
+        print("")
 
 # -------------------object oriented programming ! 
 
