@@ -147,7 +147,7 @@ class Virus:
 
            elif display==3:
                try:
-                   os.system('python update.py')
+                   os.system('python Update.py')
                except:
                    pass
            else:
