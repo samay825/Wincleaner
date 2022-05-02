@@ -31,13 +31,18 @@ def systemclear():
            os.system('cls')
        elif display_input=='N' or display_input=="n":
            os.system('clear')
-    except Exception as vaimsamaymandirbikhari:
-        print('\n')
-        print(Fore.RED+"└─"+Fore.WHITE+"Type 'y' for Windows and 'n' for linux ")
-        print('\n')
-        sleep(1.0)
-        print(Fore.RED+"└─"+Fore.WHITE+"Restart Script !")
-        sleep(2.0)
+       else:
+            print('\n')
+            print(Fore.RED+"└─"+Fore.WHITE+"Type 'y' for Windows and 'n' for linux ")
+            print('\n')
+            sleep(1.0)
+            print(Fore.RED+"└─"+Fore.WHITE+"Restart Script !")
+            sleep(2.0)
+            sys.exit()
+    except :
+        print('Code error 1 ')
+
+
         
 
 #-----------------------------Colors
@@ -109,7 +114,6 @@ class Virus:
         try:
            samay_list = os.listdir()
            samay_list.remove('Wincleaner.py')
-	   samay_list.remove('Update.py')
            display = int(input(Fore.RED+"└─"+Fore.WHITE+"Enter Desire Option: "+Fore.RED))  
            if display==1:
                samayfile("Images")
