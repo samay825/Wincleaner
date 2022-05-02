@@ -116,7 +116,7 @@ class Virus:
            if display==1:
                samayfile("Images")
                samayfile("Vidoes")
-               samayfile("Exe/Rars")
+               samayfile("Exe-Rars")
                samayfile("Documents")
                samayfile("Apk")
                samayfile("Music")
@@ -134,7 +134,7 @@ class Virus:
                samay_music_index = [i for i in samay_list if os.path.splitext(i)[1].lower() in samay_music]
                moveprogramfile("Documents", samay_write_documents_file)
                moveprogramfile("Images", samay_write_index)
-               moveprogramfile("Exe/Rars", samay_write_exe_index)
+               moveprogramfile("Exe-Rars", samay_write_exe_index)
                moveprogramfile("Vidoes", samay_write_video_index)
                moveprogramfile("Apk", samay_apk_index)
                moveprogramfile("Music", samay_music_index)
