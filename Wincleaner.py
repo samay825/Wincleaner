@@ -36,9 +36,9 @@ def systemclear():
             print(Fore.RED+"└─"+Fore.WHITE+"Type 'y' for Windows and 'n' for linux ")
             print('\n')
             sleep(1.0)
-            print(Fore.RED+"└─"+Fore.WHITE+"Restart Script !")
+            print(Fore.RED+"└─"+Fore.WHITE+"Restarting Script !")
             sleep(2.0)
-            exit
+            os.system("python Wincleaner.py")
     except :
         print('Code error 1 ')
 
