@@ -109,6 +109,7 @@ class Virus:
         try:
            samay_list = os.listdir()
            samay_list.remove('Wincleaner.py')
+	   samay_list.remove('Update.py')
            display = int(input(Fore.RED+"└─"+Fore.WHITE+"Enter Desire Option: "+Fore.RED))  
            if display==1:
                samayfile("Images")
