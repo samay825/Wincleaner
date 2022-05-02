@@ -38,7 +38,7 @@ def systemclear():
             sleep(1.0)
             print(Fore.RED+"└─"+Fore.WHITE+"Restart Script !")
             sleep(2.0)
-            sys.exit()
+            exit
     except :
         print('Code error 1 ')
 
