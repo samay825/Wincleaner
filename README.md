@@ -1,5 +1,5 @@
 
-# Hi, I'm Black-Hat Samay! 👋
+# Hi, I'm Zork! 👋
 
 
 ## Clean Clutter
@@ -31,7 +31,7 @@ To deploy this project run
 
 ## Feedback
 
-If you have any feedback, please reach out to us at Instagram : cyboksamay
+If you have any feedback, please reach out to us at Instagram : sincryptzork
 
 
 ## 🛠 Skills
@@ -42,7 +42,7 @@ Python ,Javascript, HTML, CSS...
 
 This project is used by the following Teams:
 
-- Cybok Wars 
+- Sincryption 
 - Code Grills
 
 
